@@ -1,6 +1,7 @@
 h1{
     color: pink;
     text-align: center;
+    
 }
 
 body{
@@ -9,4 +10,7 @@ body{
      padding: 15px;
     border: solid 2px black; 
     margin :50px;
+}
+#edit_go_back{
+    margin: 20px;
 }

@@ -1,0 +1,17 @@
+h1{
+    text-align:center;
+    color:pink;
+}
+
+body{
+    background-color:grey;
+}
+
+#repeat{
+    list-style: none;
+    
+}
+
+#time_days{
+    margin-top: 50px;
+}

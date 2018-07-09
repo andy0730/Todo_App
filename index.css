@@ -2,6 +2,8 @@ h1 {
     color: pink;
     font-family: helvetica;
     text-align: center;
+    border: solid 3px black;
+    border-radius: 15px;
     
 }
 Body{
@@ -17,4 +19,11 @@ ul{
     padding: 15px;
     border: solid 2px black; 
     margin :50px;
+}
+#add_to_do_button{
+    text-align: center;
+}
+
+#add_to_do{
+    text-align: center;
 }

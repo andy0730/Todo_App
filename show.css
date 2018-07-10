@@ -14,3 +14,8 @@ body{
 #edit_go_back{
     margin: 20px;
 }
+
+li{
+    text-decoration: line-through;
+    
+}

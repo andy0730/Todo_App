@@ -26,15 +26,9 @@
             console.log(name_of_todo) 
             console.log(pomodoros)
             $("ul").append("<li><input type='checkbox'/>"+name_of_todo+"<span class='pomodoros'>"+pomodoros+"</span></li>");
-            
-            
-            
-            
-            
-             
+        })
+        $("input[type='checkbox']").click(function(){
+            $(this).closest('li').toggleClass('completedtasks')
+            console.log("hi")
         })
     })
-    
-   
-    
-    

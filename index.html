@@ -4,7 +4,11 @@
         <title>Todo App</title>
     
         <link rel="stylesheet" href="index.css"/>
-    
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="index.js"></script>
+         
     </head>
     
     
@@ -14,32 +18,49 @@
             
             <ul> 
                 <li>
-                   <input type="checkbox"/> practice violin
+                   <input type="checkbox"/> practice violin 
+                   <span id="pomodoros">2 pomodoros</span>
                 </li>
                 <li>
-                    <input type="checkbox"/> finish homework
+                    <input type="checkbox"/> finish homework 
+                    <span id="pomodoros">2 pomodoros</span>
                 </li>
                 <li>
-                   <input type="checkbox"/> read
+                   <input type="checkbox"/> read 
+                   <span id="pomodoros">2 pomodoros</span>
                 </li>
                 <li>
-                   <input type="checkbox"/> go to korea
+                   <input type="checkbox"/> go to korea 
+                   <span id="pomodoros">2 pomodoros</span>
                 </li>
                 <Li>
-                   <input type="checkbox"/> buy sister her b-day present
+                   <input type="checkbox"/> buy sister her b-day present 
+                   <span id="pomodoros">2 pomodoros</span>
                 </Li>   
                 
             </ul>
-        
-        
-        <div id="add_to_do_button">
-            <a href=show.html>       
-                <input type= "submit" value ="add todo"/>
-            </a>
         </div>
         
+        <div>
+            <!--<a href=show.html>-->       
+                <input id="add_to_do_button" type= "submit" value ="add todo"/>
+           <!-- </a>-->
+        </div>
+        
+        <div>
+            <input id="name_of_todo" type= "text" placeholder ="name of todo..."/>
+        </div>
+            
+        <div>
+            <input id="number_of_pomodoros" type= "number" placeholder ="number of pomodoros"/>
+        </div>
 
-
+       
+        
+        
+        
+        
+        
         
     </body>
 </html>

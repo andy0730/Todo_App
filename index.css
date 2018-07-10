@@ -27,3 +27,7 @@ ul{
 #add_to_do{
     text-align: center;
 }
+
+#pomodoros{
+    float: right;
+}

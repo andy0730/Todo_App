@@ -13,5 +13,14 @@ body{
 }
 
 #time_days{
-    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#name{
+    margin-left: 50px;
+}
+
+#number_of_pomodoros{
+    margin-left: 50px;
+    
 }
